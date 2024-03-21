@@ -3,10 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
-// Provider Uzerinden Yapilan Erisim Islemlerinin 
-// Tum Projede Gecerli Olmasi Icin
-// Provider in index.js Dosyasinda Import Edilmesi Gerekiyor
 import { Provider } from './context/task';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
